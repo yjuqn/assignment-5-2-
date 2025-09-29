@@ -1,0 +1,207 @@
+car = 'subaru'
+
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')  
+
+print("\nIs car == 'audi'? I predict False.")
+print(car == 'audi')  
+
+fruit = 'apple'
+print("\nIs fruit == 'apple'? I predict True.")
+print(fruit == 'apple')  
+
+print("\nIs fruit != 'banana'? I predict True.")
+print(fruit != 'banana') 
+
+print("\nIs fruit == 'Apple'? I predict False.")
+print(fruit == 'Apple') 
+
+number = 10
+print("\nIs number > 5? I predict True.")
+print(number > 5)  
+
+print("\nIs number < 5? I predict False.")
+print(number < 5)  
+
+print("\nIs number == 10? I predict True.")
+print(number == 10) 
+
+print("\nIs number == '10'? I predict False.")
+print(number == '10') 
+
+print("\nIs number >= 10? I predict True.")
+print(number >= 10) 
+5-2
+name = 'Alice'
+print(name == 'Alice') 
+print(name != 'Bob')  
+
+
+print(name.lower() == 'alice') 
+print(name.lower() == 'ALICE')  
+
+
+age = 25
+print(age == 25)  
+print(age != 30) 
+print(age > 20)  
+print(age < 30) 
+print(age >= 25)  
+print(age <= 24)  
+
+print(age > 20 and age < 30) 
+print(age < 20 or age > 30)  
+
+
+colors = ['red', 'green', 'blue']
+print('green' in colors)
+print('yellow' not in colors) 
+print('blue' not in colors) 
+5-3. 
+
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print("You just earned 5 points!") 
+ 5-4
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("You just earned 5 points for shooting the alien!")
+else:
+    print("You just earned 10 points.")
+
+
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("You just earned 5 points for shooting the alien!")
+else:
+    print("You just earned 10 points.")
+ 5-5. 
+
+alien_color = 'green'
+if alien_color == 'green':
+    print("You earned 5 points.")
+elif alien_color == 'yellow':
+    print("You earned 10 points.")
+else:
+    print("You earned 15 points.")
+
+alien_color = 'yellow'
+if alien_color == 'green':
+    print("You earned 5 points.")
+elif alien_color == 'yellow':
+    print("You earned 10 points.")
+else:
+    print("You earned 15 points.")
+
+
+alien_color = 'red'
+if alien_color == 'green':
+    print("You earned 5 points.")
+elif alien_color == 'yellow':
+    print("You earned 10 points.")
+else:
+    print("You earned 15 points.")
+5-6. 
+age = 30
+
+if age < 2:
+    print("You're a baby.")
+elif age < 4:
+    print("You're a toddler.")
+elif age < 13:
+    print("You're a kid.")
+elif age < 20:
+    print("You're a teenager.")
+elif age < 65:
+    print("You're an adult.")
+else:
+    print("You're an elder.")
+    favorite_fruits = ['banana', 'mango', 'apple']
+
+if 'banana' in favorite_fruits:
+    print("You really like bananas!")
+
+if 'mango' in favorite_fruits:
+    print("You really like mangoes!")
+
+if 'apple' in favorite_fruits:
+    print("You really like apples!")
+
+if 'orange' in favorite_fruits:
+    print("You really like oranges!")
+
+if 'grape' in favorite_fruits:
+    print("You really like grapes!")
+ 5-8. 
+
+usernames = ['admin', 'alice', 'bob', 'charlie', 'dave']
+
+for user in usernames:
+    if user == 'admin':
+        print("Hello admin, would you like to see a status report?")
+    else:
+        print(f"Hello {user}, thank you for logging in again.")
+5-9.
+
+usernames = []
+
+if usernames:
+    for user in usernames:
+        if user == 'admin':
+            print("Hello admin, would you like to see a status report?")
+        else:
+            print(f"Hello {user}, thank you for logging in again.")
+else:
+    print("We need to find some users!")
+ 5-10. 
+current_users = ['Alice', 'Bob', 'Charlie', 'Admin', 'Eve']
+new_users = ['john', 'bob', 'eve', 'dylan', 'Admin']
+
+current_users_lower = [user.lower() for user in current_users]
+
+for new_user in new_users:
+    if new_user.lower() in current_users_lower:
+        print(f"Sorry, the username '{new_user}' is already taken. Please choose a new one.")
+    else:
+        print(f"Great! The username '{new_user}' is available.")
+ 5-11. 
+numbers = list(range(1, 10))
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3rd")
+    else:
+        print(f"{number}th")
+ 5-12.
+
+4-space indents
+No extra blank lines
+Max 79–80 characters per line
+Clear naming and logic
+ Example
+user = 'admin'
+
+if user == 'admin':
+    print("Hello admin, would you like to see a status report?")
+else:
+    print(f"Hello {user}, thank you for logging in again.")
+
+user = 'admin'
+
+if user == 'admin':
+    print("Hello admin, would you like to see a status report?")
+else:
+    print(f"Hello {user}, thank you for logging in again.")
